@@ -12,7 +12,7 @@ Secondly, apply graph-cut code (cv2.grabcut) to do better segmentation. You can 
 ## Usage
 
 ```
-Run GraphCut.ipynb
+Run GraphCut.ipynb in Jupyter Notebook or Google Colab
 ```
 
 # Results
