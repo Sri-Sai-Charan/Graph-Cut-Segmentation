@@ -9,3 +9,33 @@ Firstly, use the provided polygon to obtain an estimate of foreground and backgr
 
 Secondly, apply graph-cut code (cv2.grabcut) to do better segmentation. You can use the provided bounding-boxes and use "cv2 package" for the implementation sake. You are required to draw interesting conclusions on how it performs on different samples.
 
+## Usage
+
+```
+Run GraphCut.ipynb
+```
+
+# Results
+
+
+![image](Results/og_img.png) <br>
+Original Image
+<br>
+![image](Results/bg_p_map.png) <br>
+Background Probability Map
+<br>
+![image](Results/fg_p_map.png) <br>
+Foreground Probability Map
+<br>
+![image](Results/gauss.png) <br>
+Gaussian Mixture Model
+<br>
+![image](Results/fg_mask.png) <br>
+Foreground Mask
+<br>
+![image](Results/eg_r.png) <br>
+Result
+
+
+
+
