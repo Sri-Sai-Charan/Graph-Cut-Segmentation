@@ -34,24 +34,21 @@ Run GraphCut.ipynb in Jupyter Notebook or Google Colab
 </table>
 
 
-<!-- ![image](Results/og_img.png) <br>
-Original Image
-<br>
-![image](Results/bg_p_map.png) <br>
-Background Probability Map
-<br>
-![image](Results/fg_p_map.png) <br>
-Foreground Probability Map
-<br>
-![image](Results/gauss.png) <br>
-Gaussian Mixture Model
-<br>
-![image](Results/fg_mask.png) <br>
-Foreground Mask
-<br>
-![image](Results/eg_r.png) <br>
-Result -->
-
+# Folder Structure
+```
+📦Graph-Cut-Segmentation
+ ┣ 📂Results
+ ┃ ┣ 📜bg_p_map.png
+ ┃ ┣ 📜eg_r.png
+ ┃ ┣ 📜fg_mask.png
+ ┃ ┣ 📜fg_p_map.png
+ ┃ ┣ 📜gauss.png
+ ┃ ┗ 📜og_img.png
+ ┣ 📜.gitignore
+ ┣ 📜GraphCut.ipynb
+ ┣ 📜LICENSE
+ ┗ 📜README.md
+```
 
 
 
