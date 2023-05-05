@@ -20,13 +20,17 @@ Run GraphCut.ipynb
 <table>
   <tr>
     <td> <img src="Results/og_img.png"  alt="1" width = 360px height = 640px ><p align='center'> Original Image </p></td>
-    <td><img src="Results/bg_p_map.png" alt="2" width = 360px height = 640px> <p align="center">Background Probability Map</p></td>
+    <td><img src="./Results/gauss.png" align="right" alt="4" width = 360px height = 640px> <p align="center"> Gaussian Mixture Model</p> </td>
+    
    </tr> 
    <tr>
-      <td><img src="Results/fg_p_map.png" alt="3" width = 360px height = 640px></td>
-      <td><img src="./Results/gauss.png" align="right" alt="4" width = 360px height = 640px>
-  </td>
+      <td><img src="Results/fg_p_map.png" alt="3" width = 360px height = 640px><p align="center">Foreground Probability Map</p></td>
+      <td><img src="Results/bg_p_map.png" alt="2" width = 360px height = 640px> <p align="center">Background Probability Map</p></td>  
   </tr>
+    <tr>
+        <td><img src="Results/fg_mask.png" alt="3" width = 360px height = 640px><p align="center">Foreground Mask</p></td>
+        <td><img src="Results/eg_r.png" alt="2" width = 360px height = 640px> <p align="center">Result</p></td>
+    </tr>
 </table>
 
 
